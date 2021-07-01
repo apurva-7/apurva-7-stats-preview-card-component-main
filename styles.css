@@ -93,7 +93,7 @@ h1{
 }
  @media screen and (min-width:1440px) {
      #main-box{
-         width: 60%;
+         width: 70%;
      }
      main{
          display: flex;
