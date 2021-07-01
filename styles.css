@@ -1,0 +1,131 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+main{
+    text-align: center;
+}
+
+#main-box{
+    background-color: hsl(244, 38%, 16%);
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#header-img{
+    background: hsl(286, 93%, 47%);
+    height: 300px;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.7;
+}
+#second-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    padding-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 5px;
+}
+#main-para{
+    font-size: 17px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    line-height: 1.5em;
+}
+#stats{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+#purple{
+    color: hsl(277, 64%, 61%);
+}
+#stats{
+    color:hsla(0, 0%, 100%, 0.6) ;
+}
+#big{
+    font-size: 20px;
+    font-weight: bold;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#stats-p{
+    margin-bottom: 15px;
+    margin-top: 5px;
+
+}
+.show-on-mobile{
+    display: none;
+    @media screen and (max-width: 375px) {
+        display: block;    
+    }
+}
+.show-on-desktop{
+    display: block;
+     @media screen and (max-width: 1440px) {
+      display: none;
+  }
+}
+ @media screen and (min-width:1440px) {
+     #main-box{
+         width: 60%;
+     }
+     main{
+         display: flex;
+         flex-direction: row-reverse;
+         text-align: left;
+     }
+     #second-box{
+         width: 50%;
+     }
+     #header-img{
+         width: 50%;
+         height: 450px;
+     }
+     img{
+         height: 100%;
+     }
+     #stats{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         width: 100%;
+     }
+     #big{
+         display: block;
+     }
+     #second-box{
+         box-sizing: border-box;
+         padding: 20px 100px 20px 100px;
+     }
+     #main-para{
+         padding-bottom: 30px;
+         padding-top: 15px;
+         font-size: 15px;
+     }
+ }
