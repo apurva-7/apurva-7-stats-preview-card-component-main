@@ -68,13 +68,13 @@ h1{
 #stats{
     color:hsla(0, 0%, 100%, 0.6) ;
 }
-#big{
+.big{
     font-size: 20px;
     font-weight: bold;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
-#stats-p{
+.stats-p{
     margin-bottom: 15px;
     margin-top: 5px;
 
@@ -116,7 +116,7 @@ h1{
          justify-content: space-between;
          width: 100%;
      }
-     #big{
+     .big{
          display: block;
      }
      #second-box{
