@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/website.png)
+![](./images/website.jpg)
 ### Links
 
 - Solution URL: (https://github.com/apurva-7/Projects.git)
