@@ -93,7 +93,11 @@ h1{
   }
 }
  @media screen and (min-width:1440px) {
+     body{
+         height: 100vh;
+     }
      #main-box{
+         max-width: 100%;
          width: 70%;
      }
      main{
@@ -107,9 +111,10 @@ h1{
      #header-img{
          width: 50%;
          height: 450px;
+         max-height: 450px;
      }
      img{
-         height: 100%;
+         height: 450px;
      }
      #stats{
          display: flex;
